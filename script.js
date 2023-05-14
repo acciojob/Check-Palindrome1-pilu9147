@@ -1,11 +1,11 @@
 // complete the given function
 
 function palindrome(str){
-	str.toLowerCase()
+var s =	str.toLowerCase()
 var i = 0
-	var j = str.length - 1;
+	var j = s.length - 1;
 	while (i<j) {
-		if(str.charAt(i)===str.charAt(j)) {
+		if(s.charAt(i)===s.charAt(j)) {
 			i++;
 			j--;
 		}
